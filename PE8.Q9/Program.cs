@@ -2,7 +2,7 @@
 
 namespace PE8.Q8
 {
-    internal class Program //Finn Marable this is PE8 Q.8 and it takes a given string and replaces the yeses and nos with case sensitive opposite values
+    internal class Program //Finn Marable this is PE8 Q.8 and it takes a given string and adds double quotation marks around each word in the string
     {
         static void Main(string[] args)
         {
@@ -15,14 +15,7 @@ namespace PE8.Q8
 
             for (int i = 0; i < words.Length; i++)
             {
-                if (words[i].ToLower() == "yes")
-                {
-                    words[i] = words[i].Replace("Yes", "No").Replace("yes", "no").Replace("YES", "NO").Replace("yEs", "nO").Replace("yeS", "nO").Replace("yEs", "nO");
-                }
-                else if (words[i].ToLower() == "no")
-                {
-                    words[i] = words[i].Replace("No", "Yes").Replace("no", "yes").Replace("NO", "YES").Replace("nO", "yES");
-                }
+                words[i] = $"\"\"{words[i]}\"\"";
             }
 
             // Join the modified words back into a single string

@@ -8,7 +8,7 @@ namespace PE8.Q7
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //Finn Marable this program is PE8 Q.7 and takes a user inputted string and returns it backwards
         {
 
             Console.WriteLine("enter a string");
