@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE9_Q4_Marable", "PE9_Q4_Marable.csproj", "{204DDDFB-3112-4F48-A97A-B2DDCA4F0258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204DDDFB-3112-4F48-A97A-B2DDCA4F0258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204DDDFB-3112-4F48-A97A-B2DDCA4F0258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204DDDFB-3112-4F48-A97A-B2DDCA4F0258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204DDDFB-3112-4F48-A97A-B2DDCA4F0258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F594B15-7244-4810-9565-0AAC58A13D6B}
+	EndGlobalSection
+EndGlobal
