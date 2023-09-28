@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Threading;
 
 namespace MyEditor
 {
@@ -26,7 +27,23 @@ namespace MyEditor
             this.copyToolStripMenuItem.Click += new EventHandler(CutToolStripMenuItem__Click);
             this.pasteToolStripMenuItem.Click += new EventHandler(PasteToolStripMenuItem__Click);
 
+            this.boldToolStripMenuItem.Click += new EventHandler(BoldToolStripMenuItem__Click);
+            this.italicsToolStripMenuItem.Click += new EventHandler(ItalicsToolStripMenuItem__Click);
+            this.underlineToolStripMenuItem.Click += new EventHandler(UnderlineToolStripMenuItem__Click);
+
+            this.mSSansSerifToolStripMenuItem.Click += new EventHandler(MSSansSerifToolStripMenuItem__Click);
+            this.timesNewRomanToolStripMenuItem.Click += new EventHandler(TimesNewRomanToolStripMenuItem__Click);
+
+            this.testToolStripButton.Click += new EventHandler(TestToolStripButton__Click);
+
             this.toolStrip.ItemClicked += new ToolStripItemClickedEventHandler(ToolStrip__ItemClicked);
+
+            this.richTextBox.SelectionChanged += new EventHandler(RichTextBox__SelectionChanged);
+
+            this.countdownLabel.Visible = false;
+
+
+            this.timer.Tick += new EventHandler(Timer__Tick);
             this.Text = "MyEditor";
         }
 
@@ -38,12 +55,119 @@ namespace MyEditor
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
         }
+
+
+        private void TestToolStripButton__Click(object sender, EventArgs e)
+        {
+            this.timer.Interval = 500;
+
+            this.toolStripProgressBar1.Value = 60;
+
+            this.countdownLabel.Text = "3";
+            this.countdownLabel.Visible = true;
+            this.richTextBox.Visible = false;
+
+            for (int i = 3; i > 0; --i)
+            {
+                this.countdownLabel.Text = i.ToString();
+                this.Refresh();
+                Thread.Sleep(1000);
+            }
+
+            this.countdownLabel.Visible = false;
+            this.richTextBox.Visible = true;
+
+            this.timer.Start();
+        }
+
+        private void Timer__Tick(object sender, EventArgs e)
+        {
+            --this.toolStripProgressBar1.Value;
+
+            if (this.toolStripProgressBar1.Value == 0)
+            {
+                this.timer.Stop();
+
+                string performance = "Congratulations! You typed " + (Math.Round(this.richTextBox.TextLength / 30.0, 2) + " letters per second!");
+
+                MessageBox.Show(performance);
+            }
+        }
+
+        private void BoldToolStripMenuItem__Click(Object sender, EventArgs e)
+        {
+            FontStyle fontStyle = FontStyle.Bold;
+            Font selectionFont = null;
+
+            selectionFont = richTextBox.SelectionFont;
+            if (selectionFont == null)
+            {
+                selectionFont = richTextBox.Font;
+            }
+
+            SetSelectionFont(fontStyle, !selectionFont.Bold);
+        }
+
+        private void ItalicsToolStripMenuItem__Click(Object sender, EventArgs e)
+        {
+            FontStyle fontStyle = FontStyle.Italic;
+            Font selectionFont = null;
+
+            selectionFont = richTextBox.SelectionFont;
+            if (selectionFont == null)
+            {
+                selectionFont = richTextBox.Font;
+            }
+
+            SetSelectionFont(fontStyle, !selectionFont.Italic);
+        }
+
+        private void UnderlineToolStripMenuItem__Click(Object sender, EventArgs e)
+        {
+            FontStyle fontStyle = FontStyle.Underline;
+            Font selectionFont = null;
+
+            selectionFont = richTextBox.SelectionFont;
+            if (selectionFont == null)
+            {
+                selectionFont = richTextBox.Font;
+            }
+
+            SetSelectionFont(fontStyle, !selectionFont.Underline);
+        }
+
+        private void MSSansSerifToolStripMenuItem__Click(Object sender, EventArgs e)
+        {
+            Font newFont = new Font("MS Sans Serif", richTextBox.SelectionFont.Size, richTextBox.SelectionFont.Style);
+
+            richTextBox.SelectionFont = newFont;
+        }
+
+        private void TimesNewRomanToolStripMenuItem__Click(Object sender, EventArgs e)
+        {
+            Font newFont = new Font("Times New Roman", richTextBox.SelectionFont.Size, richTextBox.SelectionFont.Style);
+
+            richTextBox.SelectionFont = newFont;
+        }
+
+        private void RichTextBox__SelectionChanged(Object sender, EventArgs e)
+        {
+            if (this.richTextBox.SelectionFont != null)
+            {
+                this.boldToolStripButton.Checked = richTextBox.SelectionFont.Bold;
+                this.italicsToolStripButton.Checked = richTextBox.SelectionFont.Italic;
+                this.underlineToolStripButton.Checked = richTextBox.SelectionFont.Underline;
+            }
+
+            this.colorToolStripButton.BackColor = richTextBox.SelectionColor;
+        }
+
         private void OpenToolStripMenuItem__Click(object sender, EventArgs e)
         {
             if( openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 RichTextBoxStreamType richTextBoxStreamType = RichTextBoxStreamType.RichText;
-                if (openFileDialog.FileName.ToLower().Contains(".txt"))
+                if (openFileDialog.FileName.ToLower().Contains(".txt")) 
                 {
                     richTextBoxStreamType = RichTextBoxStreamType.PlainText;
                 }
@@ -153,6 +277,11 @@ namespace MyEditor
         }
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
 
         }
