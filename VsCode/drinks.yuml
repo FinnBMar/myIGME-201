@@ -1,0 +1,11 @@
+// {type:class}
+// {generate:true}
+// {direction:topDown}
+
+[+A:HotDrink|+milk:boolean;]
+
+[+I:ICup|=color:string;=volume:double;]
+
+[+CupOfTea|-leafType:string;||]
+[+A:HotDrink]^[+CupOfTea]
+[+I:ICup]<-.-[+CupOfTea]
