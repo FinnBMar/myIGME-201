@@ -1,0 +1,16 @@
+// {type:class}
+// {generate:true}
+// {direction:topDown}
+
+[+Profile|-Bio:Description;-profilePicture:ProfilePicture;-status:Status;-profileColor:ProfileColor|()|()]
+
+[+Description|-description:string;|()|()]
+[+ProfilePicture||-AddFile()|()]
+[+Status|-status:string;-isPermanent:bool;|-changePerm(private:bool)|()]
+[+ProfileColor|-backgroundColor:string;|()|()]
+
+
+[+Profile] 1-0 [+Description]
+[+Profile] 1-0 [+ProfilePicture]
+[+Profile] 1-0 [+Status]
+[+Profile] 1-0 [+ProfileColor]
