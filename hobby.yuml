@@ -1,0 +1,19 @@
+// {type:class}
+// {generate:true}
+// {direction:topDown}
+
+[+A:SoccerPlayer|+name: string; +position: string|+startRun():a; +stopRun():a; +tackle():v]
+
+[+I:PassInterface|-chooseTeammate() +KickAccurate()]
+[+I:ShootInterface|-pickTarget()| +KickHard()]
+
+[+Arsenal|-goalsScored: int assists: int|+run(); +tackle()]
+
+[+Tottenham|-goalsScored: int -yellowcards: int|+run(); +tackle()]
+
+[+A:SoccerPlayer] ^-[+Arsenal]
+[+A:SoccerPlayer] ^-[+Tottenham]
+[+Arsenal] ^-.-[+I:PassInterface]
+[+Arsenal] ^-.-[+I:ShootInterface]
+[+Tottenham] ^-.-[+I:PassInterface]
+[+Tottenham] ^-.-[+I:ShootInterface]
