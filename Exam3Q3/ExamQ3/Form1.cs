@@ -47,7 +47,7 @@ namespace FrustratingUI
         {
             // Button
             btnChangeText = new Button();
-            btnChangeText.Text = "Change Text";
+            btnChangeText.Text = "Submit Form";
             btnChangeText.Size = new Size(100, 30);
             btnChangeText.Location = new Point(20, 20);
             btnChangeText.Click += BtnChangeText_Click;
@@ -68,7 +68,7 @@ namespace FrustratingUI
 
             // ComboBox
             cboOptions = new ComboBox();
-            cboOptions.Items.AddRange(new string[] { "Option 1", "Option 2", "Option 3" });
+            cboOptions.Items.AddRange(new string[] { "Yes", "No", "Maybe" });
             cboOptions.Size = new Size(150, 30);
             cboOptions.Location = new Point(20, 150);
             cboOptions.SelectedIndexChanged += CboOptions_SelectedIndexChanged;
@@ -108,7 +108,7 @@ namespace FrustratingUI
             while (true)
             {
                 Thread.Sleep(5000);
-                txtRandomText.Text = "Text Changed by Thread!";
+                txtRandomText.Text = "Form Submitted";
             }
         }
 
@@ -125,7 +125,7 @@ namespace FrustratingUI
                         this.BackColor = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
                         break;
                     case 2:
-                        txtRandomText.Text = "Timer Tick: " + DateTime.Now.ToString();
+                        txtRandomText.Text = "Current Time: " + DateTime.Now.ToString();
                         break;
                     case 3:
                         btnChangeText.Location = new Point(random.Next(0, this.Width - btnChangeText.Width), random.Next(0, this.Height - btnChangeText.Height));
