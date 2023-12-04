@@ -13,7 +13,6 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using static System.Windows.Forms.LinkLabel;
 
-namespace PresidentsApp // Finn Marable PresidentsApp Recreation of given exe for Unit Exam 3 Question 2
 {
     public partial class Presidents : Form
     {
