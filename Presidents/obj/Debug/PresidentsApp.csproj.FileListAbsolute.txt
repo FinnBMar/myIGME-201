@@ -50,3 +50,10 @@ B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.GenerateRe
 B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.CoreCompileInputs.cache
 B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.exe
 B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.pdb
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.AssemblyReference.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\Presidents.resources
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.Properties.Resources.resources
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.GenerateResource.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.CoreCompileInputs.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.exe
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.pdb
