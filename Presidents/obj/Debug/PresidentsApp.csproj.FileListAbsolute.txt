@@ -1,0 +1,78 @@
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\BarackObama.png
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\BenjaminHarrison.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\DwightDEisenhower.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\FranklinDRoosevelt.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\FranklinPierce.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\GeorgeWashington.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\GeorgeWBush.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\JamesBuchanan.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\JohnAdams.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\JohnFKennedy.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\MartinVanBuren.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\RonaldReagan.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\TheodoreRoosevelt.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\ThomasJefferson.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\WilliamJClinton.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\Presidents_exe\WilliamMcKinley.jpeg
+C:\Users\Finn\Downloads\Presidents\bin\Debug\PresidentsApp.exe.config
+C:\Users\Finn\Downloads\Presidents\bin\Debug\PresidentsApp.exe
+C:\Users\Finn\Downloads\Presidents\bin\Debug\PresidentsApp.pdb
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.csproj.AssemblyReference.cache
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.Presidents.resources
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.Properties.Resources.resources
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.csproj.GenerateResource.cache
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.csproj.CoreCompileInputs.cache
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.exe
+C:\Users\Finn\Downloads\Presidents\obj\Debug\PresidentsApp.pdb
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\BarackObama.png
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\BenjaminHarrison.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\DwightDEisenhower.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\FranklinDRoosevelt.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\FranklinPierce.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\GeorgeWashington.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\GeorgeWBush.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\JamesBuchanan.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\JohnAdams.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\JohnFKennedy.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\MartinVanBuren.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\RonaldReagan.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\TheodoreRoosevelt.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\ThomasJefferson.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\WilliamJClinton.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\Presidents_exe\WilliamMcKinley.jpeg
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\PresidentsApp.exe.config
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\PresidentsApp.exe
+B:\IGME 201 Repo\myIGME-201\Presidents\bin\Debug\PresidentsApp.pdb
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.AssemblyReference.cache
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.Presidents.resources
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.Properties.Resources.resources
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.GenerateResource.cache
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.CoreCompileInputs.cache
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.exe
+B:\IGME 201 Repo\myIGME-201\Presidents\obj\Debug\PresidentsApp.pdb
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.AssemblyReference.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.Properties.Resources.resources
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.GenerateResource.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.csproj.CoreCompileInputs.cache
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.exe
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.pdb
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\BarackObama.png
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\BenjaminHarrison.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\DwightDEisenhower.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\FranklinDRoosevelt.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\FranklinPierce.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\GeorgeWashington.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\GeorgeWBush.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\JamesBuchanan.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\JohnAdams.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\JohnFKennedy.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\MartinVanBuren.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\RonaldReagan.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\TheodoreRoosevelt.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\ThomasJefferson.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\WilliamJClinton.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\Presidents_exe\WilliamMcKinley.jpeg
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\PresidentsApp.exe.config
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\PresidentsApp.exe
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\bin\Debug\PresidentsApp.pdb
+C:\Users\Finn\Source\Repos\FinnBMar\myIGME-201\Presidents\obj\Debug\PresidentsApp.Presidents.resources
